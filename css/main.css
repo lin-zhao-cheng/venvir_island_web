@@ -7,6 +7,7 @@ body{
 }
 .content_venvir{
     position: relative;
+    
     left: 0;
     top: 0;
     width: 100vw;
@@ -19,48 +20,61 @@ body{
 /* ----------------------------------------- */
 .main_island{
     /* position: relative; */
+    z-index: 1;
 }
-.board_1{
+.pos_box_board{
     position: absolute;
-    top: 372px;
-    left: 160px;
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+
+}
+.pos_box_treasure{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+
+}
+
+.board_1{
+    margin-top: 88px;
 }
 .board_2{
-    position: absolute;
-    top: 250px;
-    left: 45px;
+    margin-top: -150px;
+    margin-left: -180px;
 }
-
 .board_3{
-    position: absolute;
-    top: 175px;
-    left: 217px;
+    margin-top: -300px;
+    margin-left: 100px;
 }
-
+.board4_box{
+    margin-left: -38px;
+}
 .board_4{
-    position: absolute;
-    top: 88px;
-    left: 123px;
+    margin-top: -670px;
 }
 .treasure_1{
-    position: absolute;
-    top: 400px;
-    left: 165px;
+    margin-top: 117px;
+    margin-left: 5px;
 }
 .treasure_2{
-    position: absolute;
-    top: 279px;
-    left: 50px;
+    margin-top: -130px;
+    margin-left: -167px;
 }
 .treasure_3{
-    position: absolute;
-    top: 197px;
-    left: 222px;
+    margin-top: -287px;
+    margin-left: 109px;
+}
+.treasure4_box{
+    margin-left: -36px;
 }
 .treasure_4{
-    position: absolute;
-    top: 100px;
-    left: 123px;
+    margin-top: -645px;
+}
+
+.opacity{
+    opacity: 0;
 }
 
 

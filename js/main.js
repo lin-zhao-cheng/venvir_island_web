@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // window.localStorage.clear();
+  window.localStorage.clear();
   var A_count = 0;
   var B_count = 0;
   var C_count = 0;
@@ -7,38 +7,45 @@ $(document).ready(function(){
   // console.log(A_count);
   
   // $(".content_2").hide();
-
+  // $(".treasure_1").show(); 
+  // $(".treasure_2").show(); 
+  // $(".treasure_3").show(); 
+  // $(".treasure_4").show(); 
+  // $(".board_1").hide();
+  // $(".board_2").hide();
+  // $(".board_3").hide();
+  // $(".board_4").hide();
   var Flage_1 = window.localStorage.getItem('A_flage');
       if(Flage_1==1){
-        $(".treasure_1").show(); 
-        $(".board_1").hide();
+        $(".treasure_1").removeClass('opacity'); 
+        $(".board_1").addClass('opacity');
        }else{
-         $(".treasure_1").hide(); 
-         $(".board_1").show();
+         $(".treasure_1").addClass('opacity'); 
+         $(".board_1").removeClass('opacity');
        }
   var Flage_1 = window.localStorage.getItem('B_flage');
       if(Flage_1==1){
-        $(".treasure_2").show(); 
-        $(".board_2").hide();
+        $(".treasure_2").removeClass('opacity'); 
+        $(".board_2").addClass('opacity');
        }else{
-         $(".treasure_2").hide(); 
-         $(".board_2").show();
+         $(".treasure_2").addClass('opacity'); 
+         $(".board_2").removeClass('opacity');
        }
   var Flage_1 = window.localStorage.getItem('C_flage');
       if(Flage_1==1){
-        $(".treasure_3").show(); 
-        $(".board_3").hide();
+        $(".treasure_3").removeClass('opacity'); 
+        $(".board_3").addClass('opacity');
        }else{
-         $(".treasure_3").hide(); 
-         $(".board_3").show();
+         $(".treasure_3").addClass('opacity'); 
+         $(".board_3").removeClass('opacity');
        }
   var Flage_1 = window.localStorage.getItem('D_flage');
       if(Flage_1==1){
-        $(".treasure_4").show(); 
-        $(".board_4").hide();
+        $(".treasure_4").removeClass('opacity'); 
+        $(".board_4").addClass('opacity');
        }else{
-         $(".treasure_4").hide(); 
-         $(".board_4").show();
+         $(".treasure_4").addClass('opacity'); 
+         $(".board_4").removeClass('opacity');
        }
 
   // $(".treasure_1").hide();
@@ -55,8 +62,8 @@ $(document).ready(function(){
     $(".submitBtn").click(function(){
       if($("#testInput01").val()=="1111"){
         $("#Modal-1").modal('hide');
-        $(".board_1").hide();
-        $(".treasure_1").show();
+        $(".board_1").addClass('opacity');
+        $(".treasure_1").removeClass('opacity');
         A_count=1;   
         window.localStorage.setItem('A_flage',A_count);
       }
@@ -78,8 +85,8 @@ $(document).ready(function(){
     $(".submitBtn").click(function(){
       if($("#testInput02").val()=="2222"){
         $("#Modal-2").modal('hide');
-        $(".board_2").hide();
-        $(".treasure_2").show();
+        $(".board_2").addClass('opacity');
+        $(".treasure_2").removeClass('opacity');
         B_count=1;
 
         window.localStorage.setItem('B_flage',B_count);
@@ -100,8 +107,8 @@ $(document).ready(function(){
     $(".submitBtn").click(function(){
       if($("#testInput03").val()=="3333"){
         $("#Modal-3").modal('hide');
-        $(".board_3").hide();
-        $(".treasure_3").show();
+        $(".board_3").addClass('opacity');
+        $(".treasure_3").removeClass('opacity');
         C_count=1; 
         window.localStorage.setItem('C_flage',C_count);
       }
@@ -122,8 +129,8 @@ $(document).ready(function(){
     $(".submitBtn").click(function(){
       if($("#testInput04").val()=="4444"){
         $("#Modal-4").modal('hide');
-        $(".board_4").hide();
-        $(".treasure_4").show();
+        $(".board_4").addClass('opacity');
+        $(".treasure_4").removeClass('opacity');
         D_count=1;    
         window.localStorage.setItem('D_flage',D_count);
       }
