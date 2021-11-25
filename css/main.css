@@ -1,0 +1,178 @@
+
+html{
+
+}
+body{
+
+}
+.content_venvir{
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* ----------------------------------------- */
+.main_island{
+    /* position: relative; */
+}
+.board_1{
+    position: absolute;
+    top: 372px;
+    left: 160px;
+}
+.board_2{
+    position: absolute;
+    top: 250px;
+    left: 45px;
+}
+
+.board_3{
+    position: absolute;
+    top: 175px;
+    left: 217px;
+}
+
+.board_4{
+    position: absolute;
+    top: 88px;
+    left: 123px;
+}
+.treasure_1{
+    position: absolute;
+    top: 400px;
+    left: 165px;
+}
+.treasure_2{
+    position: absolute;
+    top: 279px;
+    left: 50px;
+}
+.treasure_3{
+    position: absolute;
+    top: 197px;
+    left: 222px;
+}
+.treasure_4{
+    position: absolute;
+    top: 100px;
+    left: 123px;
+}
+
+
+
+
+/* ----------------------------------------- */
+/* .box1{
+    background: rgb(255, 0, 0);
+    width: 250px;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 0px;
+} */
+.box2{
+    background: rgb(255, 238, 0);
+    width: 250px;
+    height: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+}
+.box3{
+    background: rgb(30, 0, 255);
+    width: 250px;
+    height: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+}
+.box4{
+    background: rgb(0, 255, 251);
+    width: 250px;
+    height: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+}
+
+
+/* --------------------- */
+/* .content_2{    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+.island{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Aitem{
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+}
+.Bitem{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 251, 0);
+}
+.Citem{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(25, 0, 255);
+}
+.Ditem{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(220, 20, 177);
+}
+.outer_btn{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(21, 255, 0);
+    border-radius: 99px;
+    margin-top: 100px;
+} */
+/* --------------------- */
+/* .input_color{
+    border-color: rgb(255, 0, 0);
+} */
+.modal_box{
+    /* background-color: rgb(255, 0, 0); */
+    /* width: 250px; */
+}
+.testInput{
+    width: 120px;
+}
+.wrong_text{
+    color: crimson;
+}
+.border_color{
+    border-color: red;
+}
+/* .entry_btn{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    border-radius:99px;
+} */

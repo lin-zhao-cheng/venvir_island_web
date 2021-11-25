@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>home</title>
+</head>
+<body>
+    <div class="content_venvir">
+        <img src="./image/main visual/venvir island  主島(無) 1.png" alt="" class="main_island">
+        <img src="./image/main visual/牌1.png" alt="" class="board_1" type="button" id="box1" data-toggle="modal" data-target="#Modal-1">
+        <img src="./image/main visual/牌 2.png" alt="" class="board_2" type="button" id="box2"  data-toggle="modal" data-target="#Modal-2">
+        <img src="./image/main visual/牌3.png" alt="" class="board_3" type="button" id="box3"  data-toggle="modal" data-target="#Modal-3">
+        <img src="./image/main visual/牌4.png" alt="" class="board_4" type="button" id="box4" data-toggle="modal" data-target="#Modal-4">
+
+        <img src="./image/main visual/寶1.png" alt="" class="treasure_1">
+        <img src="./image/main visual/寶2.png" alt="" class="treasure_2">
+        <img src="./image/main visual/寶3.png" alt="" class="treasure_3">
+        <img src="./image/main visual/寶4.png" alt="" class="treasure_4">
+        <!-- <div class="entry_btn"></div> -->
+    </div>
+    <!-- <div class="content_2">
+        <div class="island">
+            <div class="Aitem"></div>
+            <div class="Bitem"></div>
+            <div class="Citem"></div>
+            <div class="Ditem"></div>
+        </div>
+        <div class="outer_btn"></div>
+    </div> -->
+    <!-- Modal-1-->
+    <div class="modal fade " id="Modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal_box">
+            <div class="modal-header">
+                <h5 class="modal-title">第一關</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form id="testform">
+                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput01" class="testInput">
+                    <nobr id="wrong_text01" class="wrong_text">密碼錯誤</nobr>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary submitBtn" >送出</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal-2-->
+    <div class="modal fade " id="Modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal_box">
+            <div class="modal-header">
+                <h5 class="modal-title">第二關</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form id="testform">
+                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput02" class="testInput">
+                    <nobr id="wrong_text02" class="wrong_text">密碼錯誤</nobr>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary submitBtn" >送出</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal-3-->
+    <div class="modal fade " id="Modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal_box">
+            <div class="modal-header">
+                <h5 class="modal-title">第三關</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form id="testform">
+                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput03" class="testInput">
+                    <nobr id="wrong_text03" class="wrong_text">密碼錯誤</nobr>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary submitBtn" >送出</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal-4-->
+    <div class="modal fade " id="Modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal_box">
+            <div class="modal-header">
+                <h5 class="modal-title">第四關</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form id="testform">
+                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput04" class="testInput">
+                    <nobr id="wrong_text04" class="wrong_text">密碼錯誤</nobr>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary submitBtn" >送出</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/jquery-1.9.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="./js/main.js"></script>
+</html>
