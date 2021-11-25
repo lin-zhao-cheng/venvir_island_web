@@ -53,7 +53,7 @@ $(document).ready(function(){
     $("#testInput01").removeClass('border_color');
     $("#wrong_text01").hide();
     $(".submitBtn").click(function(){
-      if($("#testInput01").val()=="123456"){
+      if($("#testInput01").val()=="1111"){
         $("#Modal-1").modal('hide');
         $(".board_1").hide();
         $(".treasure_1").show();
@@ -76,7 +76,7 @@ $(document).ready(function(){
     $("#testInput02").removeClass('border_color');
     $("#wrong_text02").hide();
     $(".submitBtn").click(function(){
-      if($("#testInput02").val()=="654321"){
+      if($("#testInput02").val()=="2222"){
         $("#Modal-2").modal('hide');
         $(".board_2").hide();
         $(".treasure_2").show();
@@ -98,7 +98,7 @@ $(document).ready(function(){
     $("#testInput03").removeClass('border_color');
     $("#wrong_text03").hide();
     $(".submitBtn").click(function(){
-      if($("#testInput03").val()=="321"){
+      if($("#testInput03").val()=="3333"){
         $("#Modal-3").modal('hide');
         $(".board_3").hide();
         $(".treasure_3").show();
@@ -120,7 +120,7 @@ $(document).ready(function(){
     $("#testInput04").removeClass('border_color');
     $("#wrong_text04").hide();
     $(".submitBtn").click(function(){
-      if($("#testInput04").val()=="123"){
+      if($("#testInput04").val()=="4444"){
         $("#Modal-4").modal('hide');
         $(".board_4").hide();
         $(".treasure_4").show();
