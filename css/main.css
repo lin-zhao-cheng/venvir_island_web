@@ -44,6 +44,10 @@ body{
 
 }
 
+.board_rwd{
+    width: 64px;
+    height: 66px;
+}
 .board_1{
     margin-top: 88px;
 }
@@ -61,23 +65,32 @@ body{
 .board_4{
     margin-top: -670px;
 }
+
 .treasure_1{
-    margin-top: 117px;
-    margin-left: 5px;
+    width: 57px;
+    height: 55px;
+    margin-top: 107px;
+    margin-left: 0px;
 }
 .treasure_2{
+    width: 58px;
+    height: 49px;
     margin-top: -130px;
-    margin-left: -167px;
+    margin-left: -173px;
 }
 .treasure_3{
+    width: 58px;
+    height: 53px;
     margin-top: -287px;
-    margin-left: 109px;
+    margin-left: 112px;
 }
 .treasure4_box{
     margin-left: -36px;
 }
 .treasure_4{
-    margin-top: -645px;
+    width: 69px;
+    height: 66px;
+    margin-top: -655px;
 }
 
 .opacity{
@@ -108,6 +121,55 @@ body{
     .main_island_03{
         display: none;
     }
+    .board_rwd{
+        width: 90px;
+        height: 92px;
+    }
+    .board_1{
+        margin-top: 83px;
+        margin-left: -8px;
+    }
+    .board_2{
+        margin-top: -190px;
+        margin-left: -220px;
+    }
+    .board_3{
+        margin-top: -360px;
+        margin-left: 100px;
+    }
+    .board4_box{
+        margin-left: -50px;
+    }
+    .board_4{
+        margin-top: -760px;
+    }
+
+    .treasure_1{
+        width: 73px;
+        height: 71px;
+        margin-top: 117px;
+        margin-left: -7px;
+    }
+    .treasure_2{
+        width: 74px;
+        height: 63px;
+        margin-top: -146px;
+        margin-left: -200px;
+    }
+    .treasure_3{
+        width: 74px;
+        height: 69px;
+        margin-top: -330px;
+        margin-left: 115px;
+    }
+    .treasure4_box{
+        margin-left: -45px;
+    }
+    .treasure_4{
+        width: 87px;
+        height: 84px;
+        margin-top: -743px;
+    }
 }
 @media screen and (min-width: 376px) {
     .main_island_01{
@@ -118,5 +180,54 @@ body{
     }
     .main_island_03{
         display: block;
+    }
+    .board_rwd{
+        width: 102px;
+        height: 104px;
+    }
+    .board_1{
+        margin-top: 97px;
+        margin-left: -8px;
+    }
+    .board_2{
+        margin-top: -230px;
+        margin-left: -255px;
+    }
+    .board_3{
+        margin-top: -410px;
+        margin-left: 120px;
+    }
+    .board4_box{
+        margin-left: -60px;
+    }
+    .board_4{
+        margin-top: -870px;
+    }
+
+    .treasure_1{
+        width: 85px;
+        height: 81px;
+        margin-top: 130px;
+        margin-left: -7px;
+    }
+    .treasure_2{
+        width: 84px;
+        height: 70px;
+        margin-top: -163px;
+        margin-left: -230px;
+    }
+    .treasure_3{
+        width: 84px;
+        height: 77px;
+        margin-top: -370px;
+        margin-left: 130px;
+    }
+    .treasure4_box{
+        margin-left: -50px;
+    }
+    .treasure_4{
+        width: 99px;
+        height: 94px;
+        margin-top: -838px;
     }
 }

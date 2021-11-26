@@ -6,47 +6,47 @@ $(document).ready(function(){
   var D_count = 0;
   // console.log(A_count);
   
-  // $(".content_2").hide();
-  // $(".treasure_1").show(); 
-  // $(".treasure_2").show(); 
-  // $(".treasure_3").show(); 
-  // $(".treasure_4").show(); 
-  // $(".board_1").hide();
-  // $(".board_2").hide();
-  // $(".board_3").hide();
-  // $(".board_4").hide();
-  var Flage_1 = window.localStorage.getItem('A_flage');
-      if(Flage_1==1){
-        $(".treasure_1").removeClass('opacity'); 
-        $(".board_1").addClass('opacity');
-       }else{
-         $(".treasure_1").addClass('opacity'); 
-         $(".board_1").removeClass('opacity');
-       }
-  var Flage_1 = window.localStorage.getItem('B_flage');
-      if(Flage_1==1){
-        $(".treasure_2").removeClass('opacity'); 
-        $(".board_2").addClass('opacity');
-       }else{
-         $(".treasure_2").addClass('opacity'); 
-         $(".board_2").removeClass('opacity');
-       }
-  var Flage_1 = window.localStorage.getItem('C_flage');
-      if(Flage_1==1){
-        $(".treasure_3").removeClass('opacity'); 
-        $(".board_3").addClass('opacity');
-       }else{
-         $(".treasure_3").addClass('opacity'); 
-         $(".board_3").removeClass('opacity');
-       }
-  var Flage_1 = window.localStorage.getItem('D_flage');
-      if(Flage_1==1){
-        $(".treasure_4").removeClass('opacity'); 
-        $(".board_4").addClass('opacity');
-       }else{
-         $(".treasure_4").addClass('opacity'); 
-         $(".board_4").removeClass('opacity');
-       }
+  $(".content_2").hide();
+  $(".treasure_1").show(); 
+  $(".treasure_2").show(); 
+  $(".treasure_3").show(); 
+  $(".treasure_4").show(); 
+  $(".board_1").hide();
+  $(".board_2").hide();
+  $(".board_3").hide();
+  $(".board_4").hide();
+  // var Flage_1 = window.localStorage.getItem('A_flage');
+  //     if(Flage_1==1){
+  //       $(".treasure_1").removeClass('opacity'); 
+  //       $(".board_1").addClass('opacity');
+  //      }else{
+  //        $(".treasure_1").addClass('opacity'); 
+  //        $(".board_1").removeClass('opacity');
+  //      }
+  // var Flage_1 = window.localStorage.getItem('B_flage');
+  //     if(Flage_1==1){
+  //       $(".treasure_2").removeClass('opacity'); 
+  //       $(".board_2").addClass('opacity');
+  //      }else{
+  //        $(".treasure_2").addClass('opacity'); 
+  //        $(".board_2").removeClass('opacity');
+  //      }
+  // var Flage_1 = window.localStorage.getItem('C_flage');
+  //     if(Flage_1==1){
+  //       $(".treasure_3").removeClass('opacity'); 
+  //       $(".board_3").addClass('opacity');
+  //      }else{
+  //        $(".treasure_3").addClass('opacity'); 
+  //        $(".board_3").removeClass('opacity');
+  //      }
+  // var Flage_1 = window.localStorage.getItem('D_flage');
+  //     if(Flage_1==1){
+  //       $(".treasure_4").removeClass('opacity'); 
+  //       $(".board_4").addClass('opacity');
+  //      }else{
+  //        $(".treasure_4").addClass('opacity'); 
+  //        $(".board_4").removeClass('opacity');
+  //      }
 
   // $(".treasure_1").hide();
   // $(".treasure_2").hide();
