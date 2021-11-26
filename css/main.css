@@ -105,8 +105,8 @@ body{
     .main_island_02{
         display: block;
     }
-    .main_island_0ˇ{
-        display: block;
+    .main_island_03{
+        display: none;
     }
 }
 @media screen and (min-width: 376px) {
