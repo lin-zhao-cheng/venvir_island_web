@@ -4,6 +4,7 @@ $(document).ready(function(){
   var B_count = 0;
   var C_count = 0;
   var D_count = 0;
+  var lot_count = 0;
   // console.log(A_count);
   
   // $(".content_2").hide();
@@ -23,31 +24,30 @@ $(document).ready(function(){
          $(".treasure_1").addClass('opacity'); 
          $(".board_1").removeClass('opacity');
        }
-  var Flage_1 = window.localStorage.getItem('B_flage');
-      if(Flage_1==1){
+  var Flage_2 = window.localStorage.getItem('B_flage');
+      if(Flage_2==1){
         $(".treasure_2").removeClass('opacity'); 
         $(".board_2").addClass('opacity');
        }else{
          $(".treasure_2").addClass('opacity'); 
          $(".board_2").removeClass('opacity');
        }
-  var Flage_1 = window.localStorage.getItem('C_flage');
-      if(Flage_1==1){
+  var Flage_3 = window.localStorage.getItem('C_flage');
+      if(Flage_3==1){
         $(".treasure_3").removeClass('opacity'); 
         $(".board_3").addClass('opacity');
        }else{
          $(".treasure_3").addClass('opacity'); 
          $(".board_3").removeClass('opacity');
        }
-  var Flage_1 = window.localStorage.getItem('D_flage');
-      if(Flage_1==1){
+  var Flage_4 = window.localStorage.getItem('D_flage');
+      if(Flage_4==1){
         $(".treasure_4").removeClass('opacity'); 
         $(".board_4").addClass('opacity');
        }else{
          $(".treasure_4").addClass('opacity'); 
          $(".board_4").removeClass('opacity');
        }
-
   // $(".treasure_1").hide();
   // $(".treasure_2").hide();
   // $(".treasure_3").hide();
@@ -65,6 +65,8 @@ $(document).ready(function(){
         $(".board_1").addClass('opacity');
         $(".treasure_1").removeClass('opacity');
         A_count=1;   
+        lot_count++;
+        console.log(lot_count);
         window.localStorage.setItem('A_flage',A_count);
       }
       else{
@@ -88,7 +90,8 @@ $(document).ready(function(){
         $(".board_2").addClass('opacity');
         $(".treasure_2").removeClass('opacity');
         B_count=1;
-
+        lot_count++;
+        console.log(lot_count);
         window.localStorage.setItem('B_flage',B_count);
       }
       else{
@@ -110,6 +113,8 @@ $(document).ready(function(){
         $(".board_3").addClass('opacity');
         $(".treasure_3").removeClass('opacity');
         C_count=1; 
+        lot_count++;
+        console.log(lot_count);
         window.localStorage.setItem('C_flage',C_count);
       }
       else{
@@ -132,6 +137,8 @@ $(document).ready(function(){
         $(".board_4").addClass('opacity');
         $(".treasure_4").removeClass('opacity');
         D_count=1;    
+        lot_count++;
+        console.log(lot_count);
         window.localStorage.setItem('D_flage',D_count);
       }
       else{

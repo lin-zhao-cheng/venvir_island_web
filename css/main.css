@@ -94,10 +94,21 @@ body{
 }
 
 .opacity{
-    opacity: 0;
+    visibility: hidden;
+}
+.question_flexbox{
+    margin-top: -467px;
+}
+.question_box{
+    width: 69px;
+    height: 83px;
+    margin-left: -45px;
 }
 
-
+.lottery_box{
+    width: 96px;
+    height: 108px;
+}
 
 .testInput{
     width: 120px;
@@ -228,6 +239,6 @@ body{
     .treasure_4{
         width: 99px;
         height: 94px;
-        margin-top: -838px;
+        margin-top: -83px;
     }
 }
