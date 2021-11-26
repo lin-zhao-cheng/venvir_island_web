@@ -18,9 +18,16 @@ body{
     justify-content: center;
 }
 /* ----------------------------------------- */
-.main_island{
+.main_island_01{
     /* position: relative; */
     z-index: 1;
+
+}
+.main_island_02{
+    display: none;
+}
+.main_island_03{
+    display: none;
 }
 .pos_box_board{
     position: absolute;
@@ -87,4 +94,26 @@ body{
 }
 .border_color{
     border-color: red;
+}
+
+/* --------------------------------------------- */
+@media screen and (min-width: 321px) {
+
+    .main_island_01{
+        display: none;
+    }
+    .main_island_02{
+        display: block;
+    }
+}
+@media screen and (min-width: 376px) {
+    .main_island_01{
+        display: none;
+    }
+    .main_island_02{
+        display: none;
+    }
+    .main_island_03{
+        display: block;
+    }
 }
