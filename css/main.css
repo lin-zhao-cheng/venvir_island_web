@@ -104,10 +104,13 @@ body{
     height: 83px;
     margin-left: -45px;
 }
-
+.lottery_flexbox{
+    margin-top: -460px;
+}
 .lottery_box{
-    width: 96px;
-    height: 108px;
+    width: 68px;
+    height: 76px;
+    margin-left: -42px;
 }
 
 .testInput{
@@ -181,6 +184,22 @@ body{
         height: 84px;
         margin-top: -743px;
     }
+    .question_flexbox{
+        margin-top: -533px;
+    }
+    .question_box{
+        width: 81px;
+        height: 97px;
+        margin-left: -50px;
+    }
+    .lottery_flexbox{
+        margin-top: -525px;
+    }
+    .lottery_box{
+        width: 80px;
+        height: 90px;
+        margin-left: -49px;
+    }
 }
 @media screen and (min-width: 376px) {
     .main_island_01{
@@ -239,6 +258,25 @@ body{
     .treasure_4{
         width: 99px;
         height: 94px;
-        margin-top: -83px;
+        margin-top: -843px;
+    }
+    .question_flexbox{
+        margin-top: -613px;
+        
+    }
+    .question_box{
+        width: 97px;
+        height: 115px;
+        margin-left: -60px;
+        
+    }
+    .lottery_flexbox{
+        margin-top: -600px;
+    }
+    .lottery_box{
+        width: 96px;
+        height: 108px;
+        margin-left: -59px;
+        
     }
 }

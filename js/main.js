@@ -5,8 +5,8 @@ $(document).ready(function(){
   var C_count = 0;
   var D_count = 0;
   var lot_count = 0;
-  // console.log(A_count);
-  
+  var lot_array = new Array(4);
+  var lot_open = ['a','b','c','d']
   // $(".content_2").hide();
   // $(".treasure_1").show(); 
   // $(".treasure_2").show(); 
@@ -20,6 +20,8 @@ $(document).ready(function(){
       if(Flage_1==1){
         $(".treasure_1").removeClass('opacity'); 
         $(".board_1").addClass('opacity');
+        // lot_count ++;
+        // console.log(lot_count);
        }else{
          $(".treasure_1").addClass('opacity'); 
          $(".board_1").removeClass('opacity');
@@ -28,6 +30,8 @@ $(document).ready(function(){
       if(Flage_2==1){
         $(".treasure_2").removeClass('opacity'); 
         $(".board_2").addClass('opacity');
+        // lot_count ++;
+        // console.log(lot_count);
        }else{
          $(".treasure_2").addClass('opacity'); 
          $(".board_2").removeClass('opacity');
@@ -36,6 +40,8 @@ $(document).ready(function(){
       if(Flage_3==1){
         $(".treasure_3").removeClass('opacity'); 
         $(".board_3").addClass('opacity');
+        // lot_count ++;
+        // console.log(lot_count);
        }else{
          $(".treasure_3").addClass('opacity'); 
          $(".board_3").removeClass('opacity');
@@ -44,15 +50,33 @@ $(document).ready(function(){
       if(Flage_4==1){
         $(".treasure_4").removeClass('opacity'); 
         $(".board_4").addClass('opacity');
+        // lot_count ++;
+        // console.log(lot_count);
        }else{
          $(".treasure_4").addClass('opacity'); 
          $(".board_4").removeClass('opacity');
        }
-  // $(".treasure_1").hide();
-  // $(".treasure_2").hide();
+  var Flage_lot = window.localStorage.getItem('lot_flage');
+      if(Flage_lot==1){
+        $(".lottery_box").show();
+        $(".question_box").hide();
+      }else{
+        $(".lottery_box").hide();
+        $(".question_box").show();
+        
+      }
+
+  // $(".question_box").hide();
   // $(".treasure_3").hide();
   // $(".treasure_4").hide();
-
+  // if(lot_count>=10){
+  //   $(".lottery_box").show();
+  // }
+  // if(A_count==1){
+  //   $(".lottery_box").show();
+  // }else{
+  //   $(".lottery_box").hide();
+  // }
 
 
 
@@ -65,8 +89,10 @@ $(document).ready(function(){
         $(".board_1").addClass('opacity');
         $(".treasure_1").removeClass('opacity');
         A_count=1;   
-        lot_count++;
-        console.log(lot_count);
+        // lot_count++;
+        // console.log(lot_count);
+        lot_array[0]="a";
+        open_lot_box();
         window.localStorage.setItem('A_flage',A_count);
       }
       else{
@@ -90,8 +116,10 @@ $(document).ready(function(){
         $(".board_2").addClass('opacity');
         $(".treasure_2").removeClass('opacity');
         B_count=1;
-        lot_count++;
-        console.log(lot_count);
+        // lot_count++;
+        // console.log(lot_count);
+        lot_array[1]="b";
+        open_lot_box();
         window.localStorage.setItem('B_flage',B_count);
       }
       else{
@@ -113,8 +141,10 @@ $(document).ready(function(){
         $(".board_3").addClass('opacity');
         $(".treasure_3").removeClass('opacity');
         C_count=1; 
-        lot_count++;
-        console.log(lot_count);
+        // lot_count++;
+        // console.log(lot_count);
+        lot_array[2]="c";
+        open_lot_box();
         window.localStorage.setItem('C_flage',C_count);
       }
       else{
@@ -137,8 +167,10 @@ $(document).ready(function(){
         $(".board_4").addClass('opacity');
         $(".treasure_4").removeClass('opacity');
         D_count=1;    
-        lot_count++;
-        console.log(lot_count);
+        // lot_count++;
+        // console.log(lot_count);
+        lot_array[3]="d";
+        open_lot_box();
         window.localStorage.setItem('D_flage',D_count);
       }
       else{
@@ -151,6 +183,26 @@ $(document).ready(function(){
     });
   });
 
+  function open_lot_box()                 
+  {
+    console.log(lot_array);  
+    if(lot_array.sort().toString() == lot_open.sort().toString()){
+      console.log("相等");
+      lot_count++;
+      $(".lottery_box").show();
+      window.localStorage.setItem('lot_flage',lot_count);
+      $(".question_box").hide();
+    }
+    else{
+      console.log("不相等");
+    }
+  }
+
+    // if(A_count==1){
+  //   $(".lottery_box").show();
+  // }else{
+  //   $(".lottery_box").hide();
+  // }
   // $(".entry_btn").click(function(){
   //   var Flage_1 = window.localStorage.getItem('A_flage');
   //   var Flage_2 = window.localStorage.getItem('B_flage');
