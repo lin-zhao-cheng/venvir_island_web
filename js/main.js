@@ -1,5 +1,10 @@
 $(document).ready(function(){
-  window.localStorage.clear();
+  // window.localStorage.clear();
+  $(window).ready(
+
+    $("#Modal-6").modal('show')
+  )
+  $('.modal_intro').show()
   var A_count = 0;
   var B_count = 0;
   var C_count = 0;

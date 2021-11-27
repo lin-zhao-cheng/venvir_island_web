@@ -9,155 +9,14 @@
     <title>home</title>
 </head>
 <body>
-    <div class="content_venvir">
-        <img src="./image/main visual/venvir island 320px.png" alt="" class="main_island_01">
-        <img src="./image/main visual/venvir island 375px.png" alt="" class="main_island_02">
-        <img src="./image/main visual/venvir island 425px.png" alt="" class="main_island_03">
-        <div class="pos_box_board">
-            <img src="./image/main visual/牌1_425px.png" alt="" class="board_1 board_rwd" type="button" id="box1" data-toggle="modal" data-target="#Modal-1">
-            <img src="./image/main visual//牌2_425px.png" alt="" class="board_2 board_rwd" type="button" id="box2"  data-toggle="modal" data-target="#Modal-2">
-            <img src="./image/main visual/牌3_425px.png" alt="" class="board_3 board_rwd" type="button" id="box3"  data-toggle="modal" data-target="#Modal-3">
-            <div class="board4_box">
-                <img src="./image/main visual/牌4_425px.png" alt="" class="board_4 board_rwd" type="button" id="box4" data-toggle="modal" data-target="#Modal-4">
-            </div>
-            <div class="question_flexbox">
-                <img src="./image/main visual/問號箱_425px.png" alt="" class="question_box" type="button" id="q_box" data-toggle="modal" data-target="#Modal-5">
-            </div>
+    <div class="text-center spinner_test01">
+        <div class="spinner-border" role="status">
+          <span class="sr-only">Loading...</span>
         </div>
-        <div class="pos_box_treasure">
-            <img src="./image/main visual/寶1_425px.png" alt="" class="treasure_1">
-            <img src="./image/main visual/寶2_425px.png" alt="" class="treasure_2">
-            <img src="./image/main visual/寶3_425px.png" alt="" class="treasure_3">
-            <div class="treasure4_box">
-                <img src="./image/main visual/寶4_425px.png" alt="" class="treasure_4">
-            </div>
-            <div class="lottery_flexbox">
-                <img src="./image/main visual/抽獎箱_425px.png" alt="" class="lottery_box">
-            </div>
-        </div>
-
+      </div>
+    <div class="content_index">
+        <a href="./venvir.html"><div class="index_btn"></div></a>
             
-        
-
-        <!-- <div class="entry_btn"></div> -->
-    </div>
-    <!-- <div class="content_2">
-        <div class="island">
-            <div class="Aitem"></div>
-            <div class="Bitem"></div>
-            <div class="Citem"></div>
-            <div class="Ditem"></div>
-        </div>
-        <div class="outer_btn"></div>
-    </div> -->
-    <!-- Modal-1-->
-    <div class="modal fade " id="Modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal_box">
-            <div class="modal-header">
-                <h5 class="modal-title">第一關</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form id="testform">
-                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput01" class="testInput">
-                    <nobr id="wrong_text01" class="wrong_text">密碼錯誤</nobr>
-                </form>
-            </div>
-            <div class="modal-footer">
-
-                <button type="button" class="btn btn-primary submitBtn" >送出</button>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- Modal-2-->
-    <div class="modal fade " id="Modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal_box">
-            <div class="modal-header">
-                <h5 class="modal-title">第二關</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form id="testform">
-                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput02" class="testInput">
-                    <nobr id="wrong_text02" class="wrong_text">密碼錯誤</nobr>
-                </form>
-            </div>
-            <div class="modal-footer">
-
-                <button type="button" class="btn btn-primary submitBtn" >送出</button>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- Modal-3-->
-    <div class="modal fade " id="Modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal_box">
-            <div class="modal-header">
-                <h5 class="modal-title">第三關</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form id="testform">
-                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput03" class="testInput">
-                    <nobr id="wrong_text03" class="wrong_text">密碼錯誤</nobr>
-                </form>
-            </div>
-            <div class="modal-footer">
-
-                <button type="button" class="btn btn-primary submitBtn" >送出</button>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- Modal-4-->
-    <div class="modal fade " id="Modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal_box">
-            <div class="modal-header">
-                <h5 class="modal-title">第四關</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form id="testform">
-                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput04" class="testInput">
-                    <nobr id="wrong_text04" class="wrong_text">密碼錯誤</nobr>
-                </form>
-            </div>
-            <div class="modal-footer">
-
-                <button type="button" class="btn btn-primary submitBtn" >送出</button>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- Modal-lotteryBox-->
-    <div class="modal fade " id="Modal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal_box">
-            <div class="modal-header">
-                
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <h5 class="modal-title">神秘箱</h5>
-                <h5>敬請期待~</h5>
-            </div>
-
-        </div>
         </div>
     </div>
 
@@ -165,5 +24,5 @@
 <script src="./js/jquery-1.9.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="./js/main.js"></script>
+<script src="./js/home.js"></script>
 </html>
