@@ -30,7 +30,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(233, 250, 255);
+    background: linear-gradient(180deg, #73DDF4 15.65%, #FFFFFF 75.12%);
 }
 /* .index_btn{
     width: 200px;
