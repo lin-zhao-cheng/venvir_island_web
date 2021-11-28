@@ -16,6 +16,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: #d6f7ff;
 }
 /* -------------------------------------------- */
 .content_index{
@@ -71,7 +72,7 @@ body{
 /* ----------------------------------------- */
 .main_island_01{
     /* position: relative; */
-    z-index: 1;
+
 
 }
 .main_island_02{
@@ -79,6 +80,24 @@ body{
 }
 .main_island_03{
     display: none;
+}
+.icon_area{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 99;
+}
+.question_btn{
+    width: 46px;
+    height: 46px;
+    margin-top: 10px;
+}
+
+.back_btn{
+    width: 46px;
+    height: 46px;
 }
 .pos_box_board{
     position: absolute;
@@ -212,6 +231,24 @@ body{
     .main_island_03{
         display: none;
     }
+    .icon_area{
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        z-index: 99;
+    }
+    .question_btn{
+        width: 52px;
+        height: 52px;
+        margin-top: 10px;
+    }
+    
+    .back_btn{
+        width: 52px;
+        height: 52px;
+    }
     .board_rwd{
         width: 90px;
         height: 92px;
@@ -314,6 +351,24 @@ body{
     }
     .main_island_03{
         display: block;
+    }
+    .icon_area{
+        position: absolute;
+        right: 20px;
+        top: 58px;
+        display: flex;
+        flex-direction: column-reverse;
+        z-index: 99;
+    }
+    .question_btn{
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+    }
+    
+    .back_btn{
+        width: 60px;
+        height: 60px;
     }
     .board_rwd{
         width: 102px;
