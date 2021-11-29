@@ -7,7 +7,7 @@ body{
 }
 .content_venvir{
     position: relative;
-    
+    overflow-x: hidden;
     left: 0;
     top: 0;
     width: 100vw;
@@ -96,8 +96,8 @@ body{
 
 }
 .cloud_2{
-    width: 83px;
-    height: 83px;
+    width: 0px;
+    height: 0px;
     margin-top: -330px;
     margin-left: 140px;
 
@@ -281,8 +281,8 @@ body{
     
     }
     .cloud_2{
-        width: 83px;
-        height: 83px;
+        width: 0px;
+        height: 0px;
         margin-top: -330px;
         margin-left: 190px;
     
@@ -436,8 +436,8 @@ body{
     
     }
     .cloud_2{
-        width: 83px;
-        height: 83px;
+        width: 0px;
+        height: 0px;
         margin-top: -420px;
         margin-left: 330px;
     
