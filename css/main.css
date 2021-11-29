@@ -252,23 +252,23 @@ body{
 }
 .player_intro_flex{
     position: relative;
-    width: 277px;
-    height: 384px;
+    width: 274px;
+    height: 470px;
     outline: 0;
     pointer-events: auto;
 }
 .player_intro{
 
-    width: 277px;
-    height: 384px;
+    width: 274px;
+    height: 470px;
 
 }
 .player_close_btn{
     position: absolute;
     top: 83%;
-    left: 41%;
-    width: 68px;
-    height: 27px;
+    left: 37%;
+    width: 81px;
+    height: 32px;
 }
 /* --------------------------------------------- */
 @media screen and (min-width: 321px) {
@@ -427,20 +427,20 @@ body{
     }
     .player_intro_flex{
         position: relative;
-        width: 333px;
-        height: 462px;
+        width: 340px;
+        height: 583px;
     }
     .player_intro{
     
-        width: 333px;
-        height: 462px;
+        width: 340px;
+        height: 583px;
     }
     .player_close_btn{
         position: absolute;
-        top: 83%;
-        left: 41%;
-        width: 82px;
-        height: 33px;
+        top: 84%;
+        left: 37%;
+        width: 101px;
+        height: 40px;
     }
 }
 @media screen and (min-width: 376px) {
@@ -602,19 +602,19 @@ body{
     }
     .player_intro_flex{
         position: relative;
-        width: 363px;
-        height: 503px;
+        width: 368px;
+        height: 631px;
     }
     .player_intro{
     
-        width: 363px;
-        height: 503px;
+        width: 368px;
+        height: 631px;
     }
     .player_close_btn{
         position: absolute;
-        top: 83%;
-        left: 41%;
-        width: 89px;
-        height: 36px;
+        top: 84%;
+        left: 37%;
+        width: 109px;
+        height: 43px;
     }
 }
