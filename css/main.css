@@ -105,14 +105,14 @@ body{
 .cloud_3{
     width: 94px;
     height: 64px;
-    margin-top: 170px;
+    margin-top: 200px;
     margin-left: 20px;
 
 }
 .cloud_4{
     width: 68px;
     height: 73px;
-    margin-top: 220px;
+    margin-top: 230px;
     margin-left: 90px;
 
 }
@@ -228,7 +228,48 @@ body{
 .border_color{
     border-color: red;
 }
+/* .modal_outer_box{
 
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+} */
+.modal_cc{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.player_intro_flex{
+    position: relative;
+    width: 277px;
+    height: 384px;
+    outline: 0;
+    pointer-events: auto;
+}
+.player_intro{
+
+    width: 277px;
+    height: 384px;
+
+}
+.player_close_btn{
+    position: absolute;
+    top: 83%;
+    left: 41%;
+    width: 68px;
+    height: 27px;
+}
 /* --------------------------------------------- */
 @media screen and (min-width: 321px) {
     .home_ground{
@@ -290,15 +331,15 @@ body{
     .cloud_3{
         width: 94px;
         height: 64px;
-        margin-top: 170px;
+        margin-top: 210px;
         margin-left: 20px;
     
     }
     .cloud_4{
         width: 68px;
         height: 73px;
-        margin-top: 220px;
-        margin-left: 150px;
+        margin-top: 255px;
+        margin-left: 124px;
     
     }
     .icon_area{
@@ -384,6 +425,23 @@ body{
         height: 90px;
         margin-left: -49px;
     }
+    .player_intro_flex{
+        position: relative;
+        width: 333px;
+        height: 462px;
+    }
+    .player_intro{
+    
+        width: 333px;
+        height: 462px;
+    }
+    .player_close_btn{
+        position: absolute;
+        top: 83%;
+        left: 41%;
+        width: 82px;
+        height: 33px;
+    }
 }
 @media screen and (min-width: 376px) {
     .home_ground{
@@ -445,15 +503,15 @@ body{
     .cloud_3{
         width: 94px;
         height: 64px;
-        margin-top: 170px;
+        margin-top: 220px;
         margin-left: 20px;
     
     }
     .cloud_4{
         width: 68px;
         height: 73px;
-        margin-top: 220px;
-        margin-left: 200px;
+        margin-top: 270px;
+        margin-left: 170px;
     
     }
     .icon_area{
@@ -541,5 +599,22 @@ body{
         height: 108px;
         margin-left: -59px;
         
+    }
+    .player_intro_flex{
+        position: relative;
+        width: 363px;
+        height: 503px;
+    }
+    .player_intro{
+    
+        width: 363px;
+        height: 503px;
+    }
+    .player_close_btn{
+        position: absolute;
+        top: 83%;
+        left: 41%;
+        width: 89px;
+        height: 36px;
     }
 }
