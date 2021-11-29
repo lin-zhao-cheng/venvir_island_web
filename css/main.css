@@ -81,6 +81,42 @@ body{
 .main_island_03{
     display: none;
 }
+/* -------------------------------------- */
+.main_cloud{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    z-index: 1;
+}
+.cloud_1{
+    width: 57px;
+    height: 59px;
+    margin-top: -500px;
+    margin-left: 20px;
+
+}
+.cloud_2{
+    width: 83px;
+    height: 83px;
+    margin-top: -330px;
+    margin-left: 140px;
+
+}
+.cloud_3{
+    width: 94px;
+    height: 64px;
+    margin-top: 170px;
+    margin-left: 20px;
+
+}
+.cloud_4{
+    width: 68px;
+    height: 73px;
+    margin-top: 220px;
+    margin-left: 90px;
+
+}
+/* ----------------------------------------- */
 .icon_area{
     position: absolute;
     right: 20px;
@@ -231,6 +267,40 @@ body{
     .main_island_03{
         display: none;
     }
+    .main_cloud{
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        z-index: 1;
+    }
+    .cloud_1{
+        width: 57px;
+        height: 59px;
+        margin-top: -500px;
+        margin-left: 20px;
+    
+    }
+    .cloud_2{
+        width: 83px;
+        height: 83px;
+        margin-top: -330px;
+        margin-left: 190px;
+    
+    }
+    .cloud_3{
+        width: 94px;
+        height: 64px;
+        margin-top: 170px;
+        margin-left: 20px;
+    
+    }
+    .cloud_4{
+        width: 68px;
+        height: 73px;
+        margin-top: 220px;
+        margin-left: 150px;
+    
+    }
     .icon_area{
         position: absolute;
         right: 20px;
@@ -351,6 +421,40 @@ body{
     }
     .main_island_03{
         display: block;
+    }
+    .main_cloud{
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        z-index: 1;
+    }
+    .cloud_1{
+        width: 57px;
+        height: 59px;
+        margin-top: -600px;
+        margin-left: 20px;
+    
+    }
+    .cloud_2{
+        width: 83px;
+        height: 83px;
+        margin-top: -420px;
+        margin-left: 330px;
+    
+    }
+    .cloud_3{
+        width: 94px;
+        height: 64px;
+        margin-top: 170px;
+        margin-left: 20px;
+    
+    }
+    .cloud_4{
+        width: 68px;
+        height: 73px;
+        margin-top: 220px;
+        margin-left: 200px;
+    
     }
     .icon_area{
         position: absolute;
