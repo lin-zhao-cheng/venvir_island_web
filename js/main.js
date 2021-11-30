@@ -87,7 +87,7 @@ $(document).ready(function(){
 
   $("#box1").click(function(){
     $("#testInput01").removeClass('border_color');
-    $("#wrong_text01").hide();
+    $("#wrong_text01").addClass('opacity');
     $(".submitBtn").click(function(){
       if($("#testInput01").val()=="1111"){
         $("#Modal-1").modal('hide');
@@ -102,11 +102,11 @@ $(document).ready(function(){
       }
       else{
         $("#testInput01").addClass('border_color');
-        $("#wrong_text01").show();
+        $("#wrong_text01").removeClass('opacity');
       }
     });
     $("#testInput01").click(function(){
-        $("#wrong_text01").hide();
+        $("#wrong_text01").addClass('opacity');
     });
   });
 

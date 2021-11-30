@@ -219,15 +219,7 @@ body{
     margin-left: -42px;
 }
 
-.testInput{
-    width: 120px;
-}
-.wrong_text{
-    color: crimson;
-}
-.border_color{
-    border-color: red;
-}
+
 /* .modal_outer_box{
 
     position: relative;
@@ -252,23 +244,78 @@ body{
 }
 .player_intro_flex{
     position: relative;
-    width: 274px;
-    height: 470px;
+    width: 100%;
+    height: 100%;
     outline: 0;
     pointer-events: auto;
 }
 .player_intro{
 
-    width: 274px;
-    height: 470px;
+    width: 100%;
+    height: 100%;
 
 }
 .player_close_btn{
     position: absolute;
-    top: 83%;
+    top: 75%;
     left: 37%;
-    width: 81px;
-    height: 32px;
+    width: 30%;
+    height: 25%;
+}
+.SVG_test{
+    width: 90%;
+    height: 100%;
+}
+.secret_flex{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0;
+    pointer-events: auto;
+}
+.secret_modal{
+    left: 5px;
+    width: 80%;
+    height: 80%;
+
+}
+.secret_send_modal{
+    position: absolute;
+    left: auto;
+    bottom: 40px;
+
+}
+.secret_modal_delete{
+    position: absolute;
+    width: 7%;
+    height: 7%;
+    right: 13%;
+    top: 9px;
+}
+.secret_from{
+    position: absolute;
+    left: auto;
+    top: auto;
+
+}
+
+.secret_from_input{
+  
+}
+.testInput{
+    width: 120px;
+}
+.wrong_text{
+    color: crimson;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.border_color{
+    border-color: red;
 }
 /* --------------------------------------------- */
 @media screen and (min-width: 321px) {
@@ -425,7 +472,7 @@ body{
         height: 90px;
         margin-left: -49px;
     }
-    .player_intro_flex{
+    /* .player_intro_flex{
         position: relative;
         width: 340px;
         height: 583px;
@@ -434,13 +481,13 @@ body{
     
         width: 340px;
         height: 583px;
-    }
+    } */
     .player_close_btn{
         position: absolute;
-        top: 84%;
+        top: 75%;
         left: 37%;
-        width: 101px;
-        height: 40px;
+        width: 30%;
+        height: 25%;
     }
 }
 @media screen and (min-width: 376px) {
@@ -600,7 +647,7 @@ body{
         margin-left: -59px;
         
     }
-    .player_intro_flex{
+    /* .player_intro_flex{
         position: relative;
         width: 368px;
         height: 631px;
@@ -609,12 +656,12 @@ body{
     
         width: 368px;
         height: 631px;
-    }
+    } */
     .player_close_btn{
         position: absolute;
-        top: 84%;
+        top: 75%;
         left: 37%;
-        width: 109px;
-        height: 43px;
+        width: 30%;
+        height: 25%; 
     }
 }
