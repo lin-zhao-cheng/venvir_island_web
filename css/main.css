@@ -285,8 +285,9 @@ body{
 }
 .secret_send_modal{
     position: absolute;
-    left: auto;
+
     bottom: 40px;
+    width: 25%;
 
 }
 .secret_modal_delete{
@@ -308,6 +309,7 @@ body{
 }
 .testInput{
     width: 120px;
+    height: 45px;
 }
 .wrong_text{
     color: crimson;
