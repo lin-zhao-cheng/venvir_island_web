@@ -25,6 +25,7 @@ $(document).ready(function(){
       if(Flage_1==1){
         $(".treasure_1").removeClass('opacity'); 
         $(".board_1").addClass('opacity');
+        $(".pos_box_treasure").addClass('zindex_21');
         // lot_count ++;
         // console.log(lot_count);
        }else{
@@ -93,6 +94,7 @@ $(document).ready(function(){
         $("#Modal-1").modal('hide');
         $(".board_1").addClass('opacity');
         $(".treasure_1").removeClass('opacity');
+        $(".pos_box_treasure").addClass('zindex_21');
         A_count=1;   
         // lot_count++;
         // console.log(lot_count);
