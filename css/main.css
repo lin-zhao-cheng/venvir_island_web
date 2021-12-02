@@ -86,7 +86,7 @@ body{
     position: absolute;
     left: 10px;
     top: 50%;
-    z-index: 1;
+  
 }
 .cloud_1{
     width: 57px;
@@ -147,10 +147,10 @@ body{
     top: 50%;
     left: 50%;
 
-
+    z-index: 10;
 }
 .zindex_21{
-    z-index: 21;
+        z-index: 21;
 }
 
 .board_rwd{

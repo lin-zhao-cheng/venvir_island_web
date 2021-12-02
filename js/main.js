@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // window.localStorage.clear();
+  window.localStorage.clear();
   $(window).ready(
 
     $("#Modal-6").modal('show')
