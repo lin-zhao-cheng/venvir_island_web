@@ -146,7 +146,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    z-index: 3;
+    z-index: 20;
 
 }
 
@@ -262,10 +262,7 @@ body{
     width: 30%;
     height: 25%;
 }
-.SVG_test{
-    width: 90%;
-    height: 100%;
-}
+
 .secret_flex{
     position: relative;
 
@@ -306,6 +303,25 @@ body{
 
 .secret_from_input{
   
+}
+
+.finish_flex{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    outline: 0;
+    pointer-events: auto;
+}
+.finish_remand{
+    width: 100%;
+    height: 100%;
+}
+.finish_btn{
+    position: absolute;
+    left: 36%;
+    bottom: 10px;
+    width: 30%;
+    height: 30%;
 }
 .testInput{
     width: 120px;
@@ -474,16 +490,7 @@ body{
         height: 90px;
         margin-left: -49px;
     }
-    /* .player_intro_flex{
-        position: relative;
-        width: 340px;
-        height: 583px;
-    }
-    .player_intro{
-    
-        width: 340px;
-        height: 583px;
-    } */
+
     .player_close_btn{
         position: absolute;
         top: 75%;

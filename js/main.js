@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  window.localStorage.clear();
+  // window.localStorage.clear();
   $(window).ready(
 
     $("#Modal-6").modal('show')
@@ -203,44 +203,4 @@ $(document).ready(function(){
     }
   }
 
-    // if(A_count==1){
-  //   $(".lottery_box").show();
-  // }else{
-  //   $(".lottery_box").hide();
-  // }
-  // $(".entry_btn").click(function(){
-  //   var Flage_1 = window.localStorage.getItem('A_flage');
-  //   var Flage_2 = window.localStorage.getItem('B_flage');
-  //   var Flage_3 = window.localStorage.getItem('C_flage');
-  //   var Flage_4 = window.localStorage.getItem('D_flage');
-    
-
-  //     if(Flage_1==1){
-  //       $(".Aitem").show(); 
-  //      }else{
-  //        $(".Aitem").hide(); 
-  //      }
-  //      if(Flage_2==1){
-  //       $(".Bitem").show(); 
-  //      }else{
-  //        $(".Bitem").hide(); 
-  //      }
-  //      if(Flage_3==1){
-  //       $(".Citem").show(); 
-  //      }else{
-  //        $(".Citem").hide(); 
-  //      }
-  //      if(Flage_4==1){
-  //       $(".Ditem").show(); 
-  //      }else{
-  //        $(".Ditem").hide(); 
-  //      }
-  //   $(".content_2").show();
-  //   $(".content_1").hide();
-  // });
-
-  // $(".outer_btn").click(function(){
-  //   $(".content_1").show();
-  //   $(".content_2").hide();
-  // });
-});
+   });
