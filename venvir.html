@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#a5ecfd">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>venvir</title>
@@ -24,11 +25,11 @@
             <a href="./index.html"><img src="./image/icon/首頁btn.png" alt="" class="back_btn"></a>
         </div>
         <div class="pos_box_board">
-            <img src="./image/main visual/牌1_425px.png" alt="" class="board_1 board_rwd" type="button" id="box1" data-toggle="modal" data-target="#Modal-1">
-            <img src="./image/main visual//牌2_425px.png" alt="" class="board_2 board_rwd" type="button" id="box2"  data-toggle="modal" data-target="#Modal-2">
-            <img src="./image/main visual/牌3_425px.png" alt="" class="board_3 board_rwd" type="button" id="box3"  data-toggle="modal" data-target="#Modal-3">
+            <img src="./image/main visual/關1告示.svg" alt="" class="board_1 board_rwd" type="button" id="box1" data-toggle="modal" data-target="#Modal-1">
+            <img src="./image/main visual/關2告示.svg" alt="" class="board_2 board_rwd" type="button" id="box2"  data-toggle="modal" data-target="#Modal-2">
+            <img src="./image/main visual/關3告示.svg" alt="" class="board_3 board_rwd" type="button" id="box3"  data-toggle="modal" data-target="#Modal-3">
             <div class="board4_box">
-                <img src="./image/main visual/牌4_425px.png" alt="" class="board_4 board_rwd" type="button" id="box4" data-toggle="modal" data-target="#Modal-4">
+                <img src="./image/main visual/關4告示.svg" alt="" class="board_4 board_rwd" type="button" id="box4" data-toggle="modal" data-target="#Modal-4">
             </div>
             <div class="question_flexbox">
                 <img src="./image/main visual/問號箱_425px.png" alt="" class="question_box" type="button" id="q_box" data-toggle="modal" data-target="#Modal-5">
@@ -42,7 +43,7 @@
                 <img src="./image/main visual/寶4_425px.png" alt="" class="treasure_4" type="button" id="box_B4" data-toggle="modal" data-target="#Modal_B4">
             </div>
             <div class="lottery_flexbox">
-                <img src="./image/main visual/抽獎箱_425px.png" alt="" class="lottery_box" type="button" id="box_B4" data-toggle="modal" data-target="#Modal_B4">
+                <a href="https://forms.gle/L646kSUTEEQ5Vaia7" target="_blank"><img src="./image/main visual/抽獎箱_425px.png" alt="" class="lottery_box" ></a>
             </div>
         </div>
 
@@ -64,7 +65,7 @@
     <div class="modal fade " id="Modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal_cc">
             <div class="secret_flex">
-                <img src="./image/other/通關面板.svg" alt="" class="secret_modal">
+                <img src="./image/other/關卡1.svg" alt="" class="secret_modal">
                 <form id="testform" class="secret_from">
                     <input type="text" name="欄位名稱" id="testInput01" class="testInput secret_from_input">
                     <br><nobr id="wrong_text01" class="wrong_text">密碼錯誤</nobr>
@@ -76,71 +77,44 @@
     </div>
     <!-- Modal-2-->
     <div class="modal fade " id="Modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal_box">
-            <div class="modal-header">
-                <h5 class="modal-title">第二關</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form id="testform">
-                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput02" class="testInput">
-                    <nobr id="wrong_text02" class="wrong_text">密碼錯誤</nobr>
+        <div class="modal-dialog modal-dialog-centered modal_cc">
+            <div class="secret_flex">
+                <img src="./image/other/關卡2.svg" alt="" class="secret_modal">
+                <form id="testform" class="secret_from">
+                    <input type="text" name="欄位名稱" id="testInput02" class="testInput secret_from_input">
+                    <br><nobr id="wrong_text02" class="wrong_text">密碼錯誤</nobr>
                 </form>
+                <img src="./image/other/送出btn.svg" alt="" type="button" class="secret_send_modal submitBtn">
+                <img src="./image/icon/通關XX.svg" alt="" class="secret_modal_delete" type="button"  data-dismiss="modal" aria-label="Close">
             </div>
-            <div class="modal-footer">
-
-                <button type="button" class="btn btn-primary submitBtn" >送出</button>
-            </div>
-        </div>
         </div>
     </div>
     <!-- Modal-3-->
     <div class="modal fade " id="Modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal_box">
-            <div class="modal-header">
-                <h5 class="modal-title">第三關</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form id="testform">
-                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput03" class="testInput">
-                    <nobr id="wrong_text03" class="wrong_text">密碼錯誤</nobr>
+        <div class="modal-dialog modal-dialog-centered modal_cc">
+            <div class="secret_flex">
+                <img src="./image/other/關卡3.svg" alt="" class="secret_modal">
+                <form id="testform" class="secret_from">
+                    <input type="text" name="欄位名稱" id="testInput03" class="testInput secret_from_input">
+                    <br><nobr id="wrong_text03" class="wrong_text">密碼錯誤</nobr>
                 </form>
+                <img src="./image/other/送出btn.svg" alt="" type="button" class="secret_send_modal submitBtn">
+                <img src="./image/icon/通關XX.svg" alt="" class="secret_modal_delete" type="button"  data-dismiss="modal" aria-label="Close">
             </div>
-            <div class="modal-footer">
-
-                <button type="button" class="btn btn-primary submitBtn" >送出</button>
-            </div>
-        </div>
         </div>
     </div>
     <!-- Modal-4-->
     <div class="modal fade " id="Modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal_box">
-            <div class="modal-header">
-                <h5 class="modal-title">第四關</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form id="testform">
-                    請輸入通關密語：<input type="text" name="欄位名稱" id="testInput04" class="testInput">
-                    <nobr id="wrong_text04" class="wrong_text">密碼錯誤</nobr>
+        <div class="modal-dialog modal-dialog-centered modal_cc">
+            <div class="secret_flex">
+                <img src="./image/other/關卡4.svg" alt="" class="secret_modal">
+                <form id="testform" class="secret_from">
+                    <input type="text" name="欄位名稱" id="testInput04" class="testInput secret_from_input">
+                    <br><nobr id="wrong_text04" class="wrong_text">密碼錯誤</nobr>
                 </form>
+                <img src="./image/other/送出btn.svg" alt="" type="button" class="secret_send_modal submitBtn">
+                <img src="./image/icon/通關XX.svg" alt="" class="secret_modal_delete" type="button"  data-dismiss="modal" aria-label="Close">
             </div>
-            <div class="modal-footer">
-
-                <button type="button" class="btn btn-primary submitBtn" >送出</button>
-            </div>
-        </div>
         </div>
     </div>
     <!-- Modal-lotteryBox-->
