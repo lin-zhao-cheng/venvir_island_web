@@ -1,5 +1,9 @@
 $(document).ready(function(){
+  
   window.localStorage.clear();
+  $(function(){
+    new WOW().init();
+});
   $(window).ready(
 
     $("#Modal-6").modal('show')
@@ -84,7 +88,7 @@ $(document).ready(function(){
   //   $(".lottery_box").hide();
   // }
 
-
+  // wow animate__animated animate__pulse
 
   $("#box1").click(function(){
     $("#testInput01").removeClass('border_color');
@@ -101,6 +105,12 @@ $(document).ready(function(){
         lot_array[0]="a";
         open_lot_box();
         window.localStorage.setItem('A_flage',A_count);
+        $(".treasure_1").attr('data-wow-iteration','infinite');
+        $(".treasure_1").addClass('wow');
+        $(".treasure_1").addClass('animate__animated');
+        $(".treasure_1").addClass('animate__pulse');
+
+
       }
       else{
         $("#testInput01").addClass('border_color');
@@ -128,6 +138,11 @@ $(document).ready(function(){
         lot_array[1]="b";
         open_lot_box();
         window.localStorage.setItem('B_flage',B_count);
+        $(".treasure_2").attr('data-wow-iteration','infinite');
+        $(".treasure_2").addClass('wow');
+        $(".treasure_2").addClass('animate__animated');
+        $(".treasure_2").addClass('animate__pulse');
+
       }
       else{
         $("#testInput02").addClass('border_color');
@@ -153,6 +168,11 @@ $(document).ready(function(){
         lot_array[2]="c";
         open_lot_box();
         window.localStorage.setItem('C_flage',C_count);
+        $(".treasure_3").attr('data-wow-iteration','infinite');
+        $(".treasure_3").addClass('wow');
+        $(".treasure_3").addClass('animate__animated');
+        $(".treasure_3").addClass('animate__pulse');
+
       }
       else{
         $("#testInput03").addClass('border_color');
@@ -179,6 +199,11 @@ $(document).ready(function(){
         lot_array[3]="d";
         open_lot_box();
         window.localStorage.setItem('D_flage',D_count);
+        $(".treasure_4").attr('data-wow-iteration','infinite');
+        $(".treasure_4").addClass('wow');
+        $(".treasure_4").addClass('animate__animated');
+        $(".treasure_4").addClass('animate__pulse');
+
       }
       else{
         $("#testInput04").addClass('border_color');
@@ -199,6 +224,10 @@ $(document).ready(function(){
       $(".lottery_box").show();
       window.localStorage.setItem('lot_flage',lot_count);
       $(".question_box").hide();
+      $(".lottery_box").attr('data-wow-iteration','infinite');
+      $(".lottery_box").addClass('wow');
+      $(".lottery_box").addClass('animate__animated');
+      $(".lottery_box").addClass('animate__pulse');
     }
     else{
       console.log("不相等");
