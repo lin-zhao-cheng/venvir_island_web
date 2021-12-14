@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  window.localStorage.clear();
+  // window.localStorage.clear();
   $(function(){
     new WOW().init();
 });
@@ -94,7 +94,7 @@ $(document).ready(function(){
     $("#testInput01").removeClass('border_color');
     $("#wrong_text01").addClass('opacity');
     $(".submitBtn").click(function(){
-      if($("#testInput01").val()=="1111"){
+      if($("#testInput01").val()=="95441"){
         $("#Modal-1").modal('hide');
         $(".board_1").addClass('opacity');
         $(".treasure_1").removeClass('opacity');
@@ -128,7 +128,7 @@ $(document).ready(function(){
     $("#testInput02").removeClass('border_color');
     $("#wrong_text02").hide();
     $(".submitBtn").click(function(){
-      if($("#testInput02").val()=="2222"){
+      if($("#testInput02").val()=="52682"){
         $("#Modal-2").modal('hide');
         $(".board_2").addClass('opacity');
         $(".treasure_2").removeClass('opacity');
@@ -158,7 +158,7 @@ $(document).ready(function(){
     $("#testInput03").removeClass('border_color');
     $("#wrong_text03").hide();
     $(".submitBtn").click(function(){
-      if($("#testInput03").val()=="3333"){
+      if($("#testInput03").val()=="11593"){
         $("#Modal-3").modal('hide');
         $(".board_3").addClass('opacity');
         $(".treasure_3").removeClass('opacity');
@@ -189,7 +189,7 @@ $(document).ready(function(){
     $("#testInput04").removeClass('border_color');
     $("#wrong_text04").hide();
     $(".submitBtn").click(function(){
-      if($("#testInput04").val()=="4444"){
+      if($("#testInput04").val()=="71874"){
         $("#Modal-4").modal('hide');
         $(".board_4").addClass('opacity');
         $(".treasure_4").removeClass('opacity');
